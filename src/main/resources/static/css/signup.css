@@ -1,0 +1,152 @@
+/* sign-up page */
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* all a tags */
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+
+
+/* yellow coloured section on left  */
+#yellow {
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 250px;
+    background-color: #FFC727;
+}
+
+
+/* navigation bar */
+#navbar {
+    padding: 30px 100px;
+}
+#navbar i {
+    height: 80px;
+}
+#navbar h1 {
+    display: inline;
+    font-size: 20px;
+}
+#navbar h1:hover {
+    text-decoration: underline;
+}
+
+
+/* section */
+#section-1 {
+    display: flex;
+}
+
+/* left half */
+#left {
+    width: 50%;
+    margin:20px 100px;
+    font-size: 40px;
+}
+#left h1 {
+    margin-top: -40px;
+    font-family: Raleway, sans-serif;
+}
+#mentor {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+#mentor img {
+    height:200px;
+}
+#mentor div {
+    margin-left: 20px;
+    text-align: left;
+}
+#mentor h4 {
+    font-family: Raleway, sans-serif;
+}
+#mentor h6 {
+    font-size: 18px;
+    color: gray
+}
+#mentor p {
+    margin-top: 10px;
+    font-size:16px;
+}
+
+/* right half */
+#right {
+    position: relative;
+    float: right;
+    top: -67px;
+    right: 0px;
+    height: 444px;
+    width: 25%;
+    padding:50px;
+    background-color: white;
+    box-shadow: -1px -1px 200px rgb(224, 222, 222);
+}
+#sign-up-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+input:hover {
+    cursor: pointer;
+}
+input:focus {
+    background-color: #e9e7e7;
+}
+input[type] {
+    padding: 10px;
+    border: 1px solid #dbdada;
+    margin: 5px 0 18px 0;
+}
+::placeholder {
+    color: #adadad;
+}
+input[type=email], input[type=number] {
+    display: block;
+    width: 94%;
+}
+#email-id, #phone-no {
+    width: 100%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=submit] {
+    margin: auto;
+    background-color: #FFC727;
+    border-radius: 50px;
+    border: 1px solid #cfcece;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+#right h6 {
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    font-size:14px;
+    margin: 10px 0;
+}
+#last-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#last-line h4 {
+    font-weight: lighter;
+}
+#login:hover {
+    color: #FFC727;
+}

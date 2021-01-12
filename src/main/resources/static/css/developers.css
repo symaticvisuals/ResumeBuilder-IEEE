@@ -1,0 +1,125 @@
+/* our team */
+*{
+    box-sizing: border-box;
+}
+
+
+/* body */
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: poppins;
+    background-color: #f8f8f8;
+}
+
+
+/* all a tags */
+a{
+    text-decoration: none;
+}
+
+
+/* all h1 tags */
+h1{
+    font-size: 50px;
+}
+
+
+/* back of navbar */
+.back{
+    color: black;
+    padding-left: 100px;
+}
+.back:visited{
+    color: #000000;
+}
+#back-link{
+    display: inline;
+}
+.icon-back {
+    margin-top: 30px;
+}
+nav p:hover {
+    text-decoration: underline;
+}
+
+
+/* section */
+#team{
+    width:100%;
+    min-height: 77vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* heading */
+#team h1 {
+    margin-top: -30px;
+}
+
+/* team members' cards */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    width:266px;
+    height: 245px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    position: relative;
+}
+.box:hover{
+    box-shadow: 2px 2px 30px rgba(4,15,49,0.1);
+    transform: scale(1.01);
+    transition: all ease 0.1s;
+}
+
+.top-bar{
+    width:50%;
+    height: 4px;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+    background-color: #ffbb12;
+    border-radius: 0px 0px 10px 10px;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 0;
+}
+.details img{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+.details strong{
+    font-weight: 500;
+    color: #141414;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.details p{
+    font-size: 0.8rem;
+    color: #7a7a7a;
+    margin: 0px 0px;
+}

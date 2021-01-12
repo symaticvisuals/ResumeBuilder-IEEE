@@ -1,0 +1,133 @@
+/* resume-1 */
+* {
+    font-family: Poppins, sans-serif;
+}
+
+
+/* html page */
+html, body {
+    margin: 0;
+    width: 21cm;
+    height: 29.7cm;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.5px solid black;
+}
+
+
+/* all ol tags */
+ol {
+    padding-left: 0;
+    margin-left: 15px;
+}
+
+
+/* all input tags */
+input {
+    border: none;
+}
+
+
+/* all textarea tags */
+textarea {
+    border: none;
+    resize: vertical;
+}
+
+
+/* top section */
+#top-section {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+#rect {
+    height: 100px;
+    border: 10px solid #121212;
+    background-color: #121212;
+    margin: 20px 10px 20px 0;
+}
+.NAME {
+    text-align: left;
+    font-family: Raleway, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    width: 100%;
+}
+#Profession {
+    text-align: left;
+}
+
+
+/* rest of the page */
+#details {
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#details h3 {
+    display: inline;
+    margin: 0;
+}
+
+.column {
+    width: 100%;
+}
+
+/* .left {
+    margin-left: 4%;
+} */
+
+#about-para {
+    width: 100%;
+}
+
+#contact {
+    margin-bottom: 12px;
+}
+#contact p {
+    display: inline;
+}
+
+#skills {
+    width: 100%;
+}
+#skills table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+#skills th {
+    background-color: black;
+    color: white;
+    padding: 5px 40px;
+}
+#skills td {
+    padding: 5px;
+    text-align: center;
+}
+#skills h3 {
+    margin: 0;
+}
+.center {
+    text-align: center;
+}
+
+#work-experience, #education, #about-me, #contact {
+    margin-top: 12px;
+}
+#work-experience input, #education input {
+    width: 95%;
+}
+#work-experience textarea {
+    width: 95%;
+}
+
+div li p {
+    margin-top: 0px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
